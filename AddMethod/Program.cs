@@ -6,7 +6,8 @@ namespace AddMethod
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var cal = new Calculate();
+            var ans = cal.Add(4, 7);
         }
     }
 }
