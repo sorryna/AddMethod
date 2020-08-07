@@ -8,6 +8,8 @@ namespace AddMethod
         {
             var cal = new Calculate();
             var ans = cal.Add(4, 7);
+            var t = ans.Equals(11);
+
         }
     }
 }
